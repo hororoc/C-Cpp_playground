@@ -28,5 +28,12 @@
     "**/.vscode/**"
   ],
   "C_Cpp.errorSquiggles": "Disabled",
-  "C_Cpp.intelliSenseEngineFallback": "Enabled"
+  "C_Cpp.intelliSenseEngineFallback": "Enabled",
+  "files.associations": {
+    "*.hbs": "handlebars",
+    "chrono": "c",
+    "limits": "c",
+    "ratio": "c",
+    "algorithm": "c"
+  }
 }
