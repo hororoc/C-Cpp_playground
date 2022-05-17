@@ -47,6 +47,7 @@ int main(void)
         }
 
         getchar();
+        getchar();
     }
 
     puts("Bye!!");
