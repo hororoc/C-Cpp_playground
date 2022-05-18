@@ -26,7 +26,7 @@ int main(void)
         }
     }
 
-    printf("%d\n", nInput);
+    printf("%d\n", nInput);  // nInput
 
     return 0;
 }
