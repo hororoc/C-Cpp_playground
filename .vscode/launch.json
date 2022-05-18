@@ -6,13 +6,10 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "stopAtEntry": true,
-      "cwd": "/Users/30ML/dev.30mlx/C_playground",
-      "environment": [],
-      "program": "/Users/30ML/dev.30mlx/C_playground/build/Debug/outDebug",
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
       "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "lldb",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
     }
   ]
 }
