@@ -12,8 +12,10 @@ int main(void) {
 	printf("%p\n", strstr(szBuffer, "boy"));
 
 	// 문자열이 검색된 위치에서 기준이 되는 주소를 빼면 인덱스를 계산할 수 있다.
-	printf("Index: %d\n", (strstr(szBuffer, "am") - szBuffer) / sizeof(char));
-	printf("Index: %d\n", (strstr(szBuffer, "boy") - szBuffer) / sizeof(char));
+	printf("Index: %d\n", strstr(szBuffer, "am") - szBuffer));
+	printf("Index: %d\n", strstr(szBuffer, "boy") - szBuffer);
+	//printf("Index: %d\n", (strstr(szBuffer, "am") - szBuffer) / sizeof(char));
+	//printf("Index: %d\n", (strstr(szBuffer, "boy") - szBuffer) / sizeof(char));
 
 	return 0;
 }
