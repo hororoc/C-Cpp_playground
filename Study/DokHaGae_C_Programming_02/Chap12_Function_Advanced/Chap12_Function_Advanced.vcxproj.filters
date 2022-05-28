@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08_BadFunction01.c">
+    <ClCompile Include="18_FuncRecursionString01.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
