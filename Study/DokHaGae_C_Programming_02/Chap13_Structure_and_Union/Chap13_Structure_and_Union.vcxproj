@@ -18,11 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="03_StructDDanZi02.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{600571c3-b9fb-44d8-8ed1-801c19af87a7}</ProjectGuid>
-    <RootNamespace>Chap12FunctionAdvanced</RootNamespace>
+    <ProjectGuid>{56318ce3-671f-466d-a74e-0cc7460eafac}</ProjectGuid>
+    <RootNamespace>Chap13StructureandUnion</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
