@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Chap13_Structure_and_Union",
+      "appliesTo": "Study/DokHaGae_C_Programming_02/Chap13_Structure_and_Union/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Chap13_Structure_and_Union",
+      "appliesTo": "Study/DokHaGae_C_Programming_02/Chap13_Structure_and_Union/",
+      "type": "launch"
+    }
+  ]
+}
