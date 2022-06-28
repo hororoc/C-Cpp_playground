@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sat Jun 25 16:59:32 2022
+# Make data base, printed on Wed Jun 29 01:00:08 2022
 
 # Variables
 
@@ -19,6 +19,7 @@ make: *** No rule to make target `all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
+ 
 LC_CTYPE = UTF-8
 # environment
 VSCODE_LOG_NATIVE = false
@@ -124,6 +125,7 @@ MAKECMDGOALS := all
 TERM_SESSION_ID = w2t0p0:91047A5B-F496-4F35-B89C-8CD12A665950
 # environment
 LESS = -R
+ 
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
@@ -279,6 +281,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Sat Jun 25 16:59:32 2022
+# Finished Make data base on Wed Jun 29 01:00:08 2022
 
  
