@@ -13,7 +13,7 @@ int main()
     int total[100];
     float avr[100];
 
-    srand(time(NULL));
+    srand(time(NULL));  // CHECK: 랜덤 숫자 생성
 
     for (i = 0; i < 100; i++)
     {
