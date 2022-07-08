@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     printf("\\    /\\\n");
     printf(" )  ( \')\n");
     printf("(  /  )\n");
     printf(" \\(__)|");
+    printf("\n");
 
     return 0;
 }
