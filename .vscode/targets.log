@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Thu Jun 30 23:57:34 2022
+# Make data base, printed on Mon Jul 11 16:56:38 2022
 
 # Variables
 
@@ -15,6 +15,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
+# environment
+LC_CTYPE = UTF-8
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -26,7 +28,7 @@ NVM_INC = /Users/30ML/.nvm/versions/node/v16.13.1/include/node
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/30ML/hororoc/C_playground
+CURDIR := /Users/30ML/hororoc/C-Cpp_playground
 # makefile
 SHELL = /bin/sh
 # environment
@@ -42,15 +44,17 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/w3/7v2_7d5d72j2311ht7qljmm00000gn/T/vscode-ipc-756a425e-cf93-4461-ab98-84483f8de4fa.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/w3/7v2_7d5d72j2311ht7qljmm00000gn/T/vscode-ipc-559c103d-a943-4270-8fcd-9228bdc4a3d8.sock
 # environment
-VSCODE_CWD = /
+VSCODE_CWD = /Users/30ML/hororoc/C-Cpp_playground
 # environment
 PATH = /Users/30ML/.deno/bin:/Users/30ML/.nvm/versions/node/v16.13.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/30ML/.cargo/bin:/Users/30ML/bin/cache/dart-sdk/bin:/Users/30ML/development/flutter/bin:/Users/30ML/.pub-cache/bin:/Users/30ML/Library/Android/sdk/emulator:/Users/30ML/Library/Android/sdk/tools:/Users/30ML/Library/Android/sdk/tools/bin:/Users/30ML/Library/Android/sdk/platform-tools
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 NVM_BIN = /Users/30ML/.nvm/versions/node/v16.13.1/bin
+# environment
+LaunchInstanceID = 5D451DB1-5C39-4C3F-B70C-FD89B6535126
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -66,7 +70,7 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Vp9MCFKE1n/Listeners
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/30ML/hororoc/C_playground
+PWD = /Users/30ML/hororoc/C-Cpp_playground
 # environment
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
@@ -95,12 +99,14 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
 # environment
-SHLVL = 1
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 2
 # environment
 JAVA_HOME = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/home
 # default
@@ -109,12 +115,18 @@ MAKE_VERSION := 3.81
 USER = hororoc
 # makefile
 .DEFAULT_GOAL := 
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w2t0p0:91047A5B-F496-4F35-B89C-8CD12A665950
 # environment
 LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
 # default
 .VARIABLES := 
 # environment
@@ -130,9 +142,13 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
+TERM_PROGRAM_VERSION = 3.4.15
+# environment
 NVM_DIR = /Users/30ML/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.116933788.116933795
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.116933788.116933795.C074B455-4BC9-4591-9304-857FEDBD409A
+# environment
+LC_TERMINAL_VERSION = 3.4.15
 # environment
 HOMEBREW_PREFIX = /opt/homebrew
 # automatic
@@ -140,9 +156,13 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +F = $(notdir $+)
 # environment
+ITERM_SESSION_ID = w2t0p0:91047A5B-F496-4F35-B89C-8CD12A665950
+# environment
 DENO_INSTALL = /Users/30ML/.deno
 # environment
 HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+COLORFGBG = 7;0
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -152,9 +172,13 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
+ITERM_PROFILE = Default
+# environment
 PAGER = less
 # environment
 LC_ALL = C
+# environment
+SECURITYSESSIONID = 186b3
 # automatic
 ^F = $(notdir $^)
 # default
@@ -166,9 +190,11 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
+TERM = xterm-256color
+# environment
 VSCODE_PID = 3018
 # variable set hash-table stats:
-# Load=78/1024=8%, Rehash=0, Collisions=1/99=1%
+# Load=91/1024=9%, Rehash=0, Collisions=4/112=4%
 
 # Pattern-specific Variable Values
 
@@ -176,9 +202,9 @@ VSCODE_PID = 3018
 
 # Directories
 
-# . (device 16777234, inode 99995948): 14 files, no impossibilities.
+# . (device 16777234, inode 120904101): 16 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -250,7 +276,7 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Jun 30 23:57:34 2022
+# Finished Make data base on Mon Jul 11 16:56:38 2022
 
  
 make: *** No rule to make target `all'.  Stop.

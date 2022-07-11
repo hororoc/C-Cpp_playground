@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/30ML/hororoc/C_playground'
-make: Leaving directory `/Users/30ML/hororoc/C_playground'
+make: Entering directory `/Users/30ML/hororoc/C-Cpp_playground'
+make: Leaving directory `/Users/30ML/hororoc/C-Cpp_playground'
  
 make: *** No targets specified and no makefile found.  Stop.
 
